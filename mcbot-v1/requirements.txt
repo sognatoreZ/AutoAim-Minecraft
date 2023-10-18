@@ -1,0 +1,8 @@
+dxcam
+opencv-python
+pyautogui
+pygetwindow
+loguru
+keyboard
+onnxruntime-gpu
+simple-pid
