@@ -1,40 +1,45 @@
-[16:08:33] [Client thread/INFO]: Setting user: zz
-[16:08:34] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:08:34] [Client thread/INFO]: LWJGL Version: 2.9.4
-[16:08:35] [Client thread/INFO]: Reloading ResourceManager: Default
-[16:08:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:08:36] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[16:08:36] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:08:37] [Thread-3/INFO]: OpenAL initialized.
-[16:08:37] [Sound Library Loader/INFO]: Sound engine started
-[16:08:39] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[16:08:41] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[16:08:42] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[16:09:16] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[16:09:16] [Server thread/INFO]: Generating keypair
-[16:09:16] [Server thread/INFO]: Loaded 488 advancements
-[16:09:17] [Server thread/INFO]: Preparing start region for level 0
-[16:09:18] [Server thread/INFO]: Preparing spawn area: 21%
-[16:09:19] [Server thread/INFO]: Preparing spawn area: 44%
-[16:09:20] [Server thread/INFO]: Preparing spawn area: 66%
-[16:09:21] [Server thread/INFO]: Preparing spawn area: 91%
-[16:09:21] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:09:22] [Server thread/INFO]: zz[local:E:9398ae82] logged in with entity id 2151 at (-239.5, 68.0, 259.5)
-[16:09:22] [Server thread/INFO]: zz加入了游戏
-[16:09:23] [Server thread/INFO]: Saving and pausing game...
-[16:09:23] [Server thread/INFO]: Saving chunks for level '01'/overworld
-[16:09:23] [Server thread/INFO]: Saving chunks for level '01'/the_nether
-[16:09:23] [Server thread/INFO]: Saving chunks for level '01'/the_end
-[16:09:34] [Server thread/INFO]: Saving and pausing game...
-[16:09:34] [Server thread/INFO]: Saving chunks for level '01'/overworld
-[16:09:34] [Server thread/INFO]: Saving chunks for level '01'/the_nether
-[16:09:34] [Server thread/INFO]: Saving chunks for level '01'/the_end
-[16:09:35] [Client thread/INFO]: Stopping!
-[16:09:35] [Client thread/INFO]: SoundSystem shutting down...
-[16:09:35] [Server thread/INFO]: Stopping server
-[16:09:35] [Server thread/INFO]: Saving players
-[16:09:35] [Server thread/INFO]: Saving worlds
-[16:09:35] [Server thread/INFO]: Saving chunks for level '01'/overworld
-[16:09:35] [Server thread/INFO]: Saving chunks for level '01'/the_nether
-[16:09:35] [Server thread/INFO]: Saving chunks for level '01'/the_end
-[16:09:35] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:33:27] [Client thread/INFO]: Setting user: zz
+[21:33:28] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:33:28] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:33:28] [Client thread/INFO]: Reloading ResourceManager: Default
+[21:33:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:33:29] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[21:33:29] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:33:29] [Thread-3/INFO]: OpenAL initialized.
+[21:33:29] [Sound Library Loader/INFO]: Sound engine started
+[21:33:32] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[21:33:33] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[21:33:34] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[21:33:42] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[21:33:42] [Server thread/INFO]: Generating keypair
+[21:33:42] [Server thread/INFO]: Loaded 488 advancements
+[21:33:42] [Server thread/INFO]: Preparing start region for level 0
+[21:33:43] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:33:43] [Server thread/INFO]: zz[local:E:5193eabf] logged in with entity id 270 at (371.085183121447, 63.0, 249.37284816121814)
+[21:33:43] [Server thread/INFO]: zz加入了游戏
+[21:33:44] [Server thread/INFO]: Saving and pausing game...
+[21:33:44] [Server thread/INFO]: Saving chunks for level '新的世界'/overworld
+[21:33:44] [Client thread/INFO]: Loaded 7 advancements
+[21:33:44] [Server thread/INFO]: Saving chunks for level '新的世界'/the_nether
+[21:33:44] [Server thread/INFO]: Saving chunks for level '新的世界'/the_end
+[21:33:44] [Server thread/INFO]: Saving and pausing game...
+[21:33:44] [Server thread/INFO]: Saving chunks for level '新的世界'/overworld
+[21:33:45] [Server thread/INFO]: Saving chunks for level '新的世界'/the_nether
+[21:33:45] [Server thread/INFO]: Saving chunks for level '新的世界'/the_end
+[21:35:36] [Server thread/INFO]: Saving and pausing game...
+[21:35:36] [Server thread/INFO]: Saving chunks for level '新的世界'/overworld
+[21:35:36] [Server thread/INFO]: Saving chunks for level '新的世界'/the_nether
+[21:35:36] [Server thread/INFO]: Saving chunks for level '新的世界'/the_end
+[21:37:17] [Server thread/INFO]: Saving and pausing game...
+[21:37:17] [Server thread/INFO]: Saving chunks for level '新的世界'/overworld
+[21:37:17] [Server thread/INFO]: Saving chunks for level '新的世界'/the_nether
+[21:37:17] [Server thread/INFO]: Saving chunks for level '新的世界'/the_end
+[21:37:20] [Client thread/INFO]: Stopping!
+[21:37:20] [Client thread/INFO]: SoundSystem shutting down...
+[21:37:20] [Server thread/INFO]: Stopping server
+[21:37:20] [Server thread/INFO]: Saving players
+[21:37:20] [Server thread/INFO]: Saving worlds
+[21:37:20] [Server thread/INFO]: Saving chunks for level '新的世界'/overworld
+[21:37:20] [Server thread/INFO]: Saving chunks for level '新的世界'/the_nether
+[21:37:20] [Server thread/INFO]: Saving chunks for level '新的世界'/the_end
+[21:37:20] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

@@ -6,3 +6,4 @@ loguru
 keyboard
 onnxruntime-gpu
 simple-pid
+ultralytics
