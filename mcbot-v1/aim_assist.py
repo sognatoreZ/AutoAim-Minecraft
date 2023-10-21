@@ -8,6 +8,7 @@ from loguru import logger
 import threading
 import keyboard
 import os
+from simple_pid import PID
 from ultralytics import YOLO
 # Change these consts if necessary
 FPS = 60
@@ -23,6 +24,8 @@ class MinecraftController(object):
     def __init__(self):
         self.cam = dxcam.create(device_idx=0,output_idx=0,output_color="RGBA")
         self.cam.start(self._get_win_coord(), FPS)
+        self.pid1=PID(Kp=0.4, Ki=0.3, Kd=0.1)
+        self.pid2=PID(Kp=0.4, Ki=0.3, Kd=0.1)
 
     @staticmethod
     def _get_win_coord():
@@ -35,9 +38,17 @@ class MinecraftController(object):
 
     def view_at(self, x, y):
         # TODO: Call rotate_view() to move the center of the window (WIN_CENTER) to (x, y)
-        
-        
-        self.rotate_view((x-WIN_SIZE[0]/2)//3*2,(y-WIN_SIZE[1]/2)//3*2)
+        #self.pid1.setpoint=int(x)
+        #self.pid2.setpoint=int(y)
+        changex,changey=(0,0)
+        for _ in list(range(1)):
+            pidx,pidy=PID(Kp=0.8, Ki=0.3, Kd=0.1),PID(Kp=0.8, Ki=0.3, Kd=0.1)
+            pidx.setpoint=x-changex
+            pidy.setpoint=y-changey
+            changex,changey=pidx(WIN_SIZE[0]/2),pidy(WIN_SIZE[1]/2)
+            self.rotate_view(changex,changey)
+
+        #self.rotate_view((x-WIN_SIZE[0]/2)//4*3,(y-WIN_SIZE[1]/2)//4*3)
         ...
 
     def grub_frame(self):
@@ -79,13 +90,20 @@ class VideoProcessThread(threading.Thread):
 
             # TODO: Run detection & call MinecraftController.view_at() to aim self.target_type
             ...
-            results=self.model.predict(frame)
+            results=self.model.predict(frame,conf=0.4)
             frame=results[0].plot()
             boxs=results[0].boxes
+            confs=boxs.conf
+            max,maxconf=0,0
+            for i,conf in enumerate(confs):
+                if conf>maxconf:
+                    max=i
+                    maxconf=conf
+                
             #识别矩阵中心
             
             if len(boxs)!=0 and len(boxs[0].xyxy)>0:             
-                cx,cy=(boxs[0].xyxy[0][0]+boxs[0].xyxy[0][2])/2,(boxs[0].xyxy[0][1]+boxs[0].xyxy[0][3])/2
+                cx,cy=(boxs[0].xyxy[max][0]+boxs[0].xyxy[max][2])/2,(boxs[0].xyxy[max][1]+boxs[0].xyxy[max][3])/2
                 self.ctrl.view_at(cx,cy)
             # Draw aiming center
             cv.line(frame, (WIN_CENTER[0], WIN_CENTER[1] - 20), (WIN_CENTER[0], WIN_CENTER[1] + 20), (0, 0, 255), 5)
