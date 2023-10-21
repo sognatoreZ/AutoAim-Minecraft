@@ -18,7 +18,7 @@ WIN_TITLE = "Minecraft 1.12.2"
 LABELS = {0: 'bee', 1: 'chicken', 2: 'cow', 3: 'creeper', 4: 'enderman', 5: 'fox', 6: 'frog', 7: 'ghast', 8: 'goat',
           9: 'llama', 10: 'pig', 11: 'sheep', 12: 'skeleton', 13: 'spider', 14: 'turtle', 15: 'wolf', 16: 'zombie'}
 N_TYPES = len(LABELS)
-MODEL_PATH=os.path.join("mcbot-v1","epoch30.pt")
+MODEL_PATH=os.path.join("mcbot-v1","yolov8n.pt")
 class MinecraftController(object):
 
     def __init__(self):
@@ -42,7 +42,7 @@ class MinecraftController(object):
         #self.pid2.setpoint=int(y)
         changex,changey=(0,0)
         for _ in list(range(1)):
-            pidx,pidy=PID(Kp=0.8, Ki=0.3, Kd=0.1),PID(Kp=0.8, Ki=0.3, Kd=0.1)
+            pidx,pidy=PID(Kp=0.4, Ki=0.3, Kd=0.1),PID(Kp=0.4, Ki=0.3, Kd=0.1)
             pidx.setpoint=x-changex
             pidy.setpoint=y-changey
             changex,changey=pidx(WIN_SIZE[0]/2),pidy(WIN_SIZE[1]/2)

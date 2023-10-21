@@ -1,68 +1,54 @@
-[12:16:11] [Client thread/WARN]: Skipping bad option: lastServer:
-[12:16:11] [Client thread/INFO]: LWJGL Version: 2.9.4
-[12:16:12] [Client thread/INFO]: Reloading ResourceManager: Default
-[12:16:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:16:12] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[12:16:12] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:16:12] [Thread-3/INFO]: OpenAL initialized.
-[12:16:13] [Sound Library Loader/INFO]: Sound engine started
-[12:16:15] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[12:16:16] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[12:16:17] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[12:17:46] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[12:17:46] [Server thread/INFO]: Generating keypair
-[12:17:47] [Server thread/INFO]: Loaded 488 advancements
-[12:17:47] [Server thread/INFO]: Preparing start region for level 0
-[12:17:47] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:17:48] [Server thread/INFO]: zz[local:E:a3bc0d7c] logged in with entity id 127 at (854.6759277790745, 4.663690359140019, -189.6615664961539)
-[12:17:48] [Server thread/INFO]: zz加入了游戏
-[12:17:49] [Server thread/INFO]: Saving and pausing game...
-[12:17:49] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:17:49] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:17:49] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:18:03] [Server thread/INFO]: Saving and pausing game...
-[12:18:03] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:18:03] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:18:03] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:19:33] [Server thread/INFO]: Saving and pausing game...
-[12:19:33] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:19:33] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:19:33] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:19:42] [Server thread/INFO]: Saving and pausing game...
-[12:19:42] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:19:42] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:19:42] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:29:01] [Server thread/INFO]: Saving and pausing game...
-[12:29:01] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:29:01] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:29:01] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:32:08] [Server thread/INFO]: Saving and pausing game...
-[12:32:08] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:32:08] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:32:08] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:39:28] [Client thread/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
-[12:39:29] [Client thread/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
-[12:39:59] [Server thread/INFO]: Saving and pausing game...
-[12:39:59] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:39:59] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:39:59] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:42:15] [Server thread/INFO]: Saving and pausing game...
-[12:42:15] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:42:15] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:42:15] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:43:14] [Server thread/INFO]: Saving and pausing game...
-[12:43:14] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:43:14] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:43:14] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[12:43:16] [Server thread/INFO]: Saving and pausing game...
-[12:43:16] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[12:43:16] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[12:43:16] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[13:04:54] [Server thread/INFO]: Saving and pausing game...
-[13:04:54] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[13:04:54] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[13:04:54] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
-[13:10:00] [Server thread/INFO]: Saving and pausing game...
-[13:10:00] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
-[13:10:00] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
-[13:10:00] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:01:37] [Client thread/INFO]: Setting user: zz
+[18:01:38] [Client thread/WARN]: Skipping bad option: lastServer:
+[18:01:38] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:01:39] [Client thread/INFO]: Reloading ResourceManager: Default
+[18:01:39] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:01:39] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[18:01:39] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:01:39] [Thread-3/INFO]: OpenAL initialized.
+[18:01:40] [Sound Library Loader/INFO]: Sound engine started
+[18:01:42] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[18:01:43] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[18:01:44] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[18:01:57] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[18:01:57] [Server thread/INFO]: Generating keypair
+[18:01:57] [Server thread/INFO]: Loaded 488 advancements
+[18:01:57] [Server thread/INFO]: Preparing start region for level 0
+[18:01:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:01:58] [Server thread/INFO]: zz[local:E:8f67f990] logged in with entity id 99 at (838.7573880597515, 51.14668622204345, -155.44300293126523)
+[18:01:58] [Server thread/INFO]: zz加入了游戏
+[18:01:59] [Server thread/INFO]: Saving and pausing game...
+[18:01:59] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:01:59] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:01:59] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:02:01] [Server thread/INFO]: Saving and pausing game...
+[18:02:01] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:02:01] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:02:01] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:02:44] [Server thread/INFO]: Saving and pausing game...
+[18:02:44] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:02:44] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:02:44] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:03:28] [Client thread/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
+[18:03:28] [Client thread/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
+[18:05:45] [Server thread/INFO]: Saving and pausing game...
+[18:05:45] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:05:45] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:05:45] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:06:38] [Server thread/INFO]: Saving and pausing game...
+[18:06:38] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:06:38] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:06:38] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:07:42] [Server thread/INFO]: Saving and pausing game...
+[18:07:42] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:07:42] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:07:42] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:12:01] [Client thread/INFO]: Stopping!
+[18:12:01] [Client thread/INFO]: SoundSystem shutting down...
+[18:12:02] [Server thread/INFO]: Stopping server
+[18:12:02] [Server thread/INFO]: Saving players
+[18:12:02] [Server thread/INFO]: Saving worlds
+[18:12:02] [Server thread/INFO]: Saving chunks for level '新的世界3333'/overworld
+[18:12:02] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_nether
+[18:12:02] [Server thread/INFO]: Saving chunks for level '新的世界3333'/the_end
+[18:12:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
